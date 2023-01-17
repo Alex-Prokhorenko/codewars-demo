@@ -20,6 +20,7 @@ Assumptions
 
 // My solution
 
-function sum(array $a): float {
+function sum(array $a): float
+{
     return array_sum($a);
 }
