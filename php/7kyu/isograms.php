@@ -14,7 +14,8 @@ isIsogram "aba" = false
 
 // My solution
 
-function isIsogram($string) {
+function isIsogram($string)
+{
     $string = strtolower($string);
     return implode('', array_unique(str_split($string))) === $string;
 }
