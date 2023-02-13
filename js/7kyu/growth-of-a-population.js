@@ -36,13 +36,13 @@ if the parameter percent is 2 you have to convert it to 0.02.
 
 // My solution
 function nbYear(p0, percent, aug, p) {
-  let years = 0;
+    let years = 0;
 
-  while (true) {
-    let growth = (p0 * (percent * 0.01) + aug);
-    p0 += Math.floor(growth);
-    years++;
-    if (p0 >= p) break;
-  }
-  return years;
+    while (true) {
+        let growth = (p0 * (percent * 0.01) + aug);
+        p0 += Math.floor(growth);
+        years++;
+        if (p0 >= p) break;
+    }
+    return years;
 }

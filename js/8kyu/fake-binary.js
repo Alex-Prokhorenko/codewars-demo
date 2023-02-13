@@ -6,6 +6,6 @@ Note: input will never be an empty string
 */
 
 // My solution
-function fakeBin(x){
-  return x.split('').map((digit) => digit >= 5 ? 1 : 0).join('');
+function fakeBin(x) {
+    return x.split('').map((digit) => digit >= 5 ? 1 : 0).join('');
 }

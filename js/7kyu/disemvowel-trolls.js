@@ -13,6 +13,6 @@ Note: for this kata y isn't considered a vowel.
 
 // My solution
 function disemvowel(str) {
-  let vowels = ['a', 'e', 'i', 'o', 'u'];
-  return str.split('').filter(letter => !(vowels.includes(letter.toLowerCase()))).join('');
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    return str.split('').filter(letter => !(vowels.includes(letter.toLowerCase()))).join('');
 }

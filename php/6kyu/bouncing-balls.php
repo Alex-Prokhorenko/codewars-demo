@@ -33,7 +33,7 @@ Examples:
 
 function bouncingBall($h, $bounce, $window)
 {
-    if ($h < 0 || $h <= $window ||$bounce < 0 || $bounce >= 1) return -1;
+    if ($h < 0 || $h <= $window || $bounce < 0 || $bounce >= 1) return -1;
     $count = 1;
     while (true) {
         $h = $h * $bounce;

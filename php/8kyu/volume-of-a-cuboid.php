@@ -8,6 +8,7 @@ Write a function to help Bob with this calculation.
 
 // My solution
 
-function get_volume_of_cuboid($length, $width, $height) {
+function get_volume_of_cuboid($length, $width, $height)
+{
     return $length * $width * $height;
 }

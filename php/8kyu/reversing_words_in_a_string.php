@@ -12,6 +12,7 @@ Example (Input --> Output)
 
 // My solution
 
-function reverse($string) {
+function reverse($string)
+{
     return implode(" ", array_reverse(explode(" ", $string)));
 }

@@ -30,11 +30,11 @@ digPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688
 
 // My solution
 
-function digPow(int $n, int $p) : int
+function digPow(int $n, int $p): int
 {
     $sum = 0;
 
-    foreach(str_split($n) as $item) {
+    foreach (str_split($n) as $item) {
         $sum += $item ** $p;
         $p++;
     }

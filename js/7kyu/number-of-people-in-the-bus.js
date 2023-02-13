@@ -18,6 +18,6 @@ The second value in the first integer array is 0, since the bus is empty in the 
 */
 
 // My solution
-var number = function(busStops){
-  return busStops.reduce( (remain, [entered, wentOut]) => remain + entered - wentOut, 0);
+var number = function (busStops) {
+    return busStops.reduce((remain, [entered, wentOut]) => remain + entered - wentOut, 0);
 }

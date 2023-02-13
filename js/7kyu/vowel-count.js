@@ -8,10 +8,10 @@ The input string will only consist of lower case letters and/or spaces.
 
 // My solution
 function isVowel(letter) {
-  let arr = ["a", "e", "i", "o", "u"];
-  return arr.includes(letter);
+    let arr = ["a", "e", "i", "o", "u"];
+    return arr.includes(letter);
 }
 
 function getCount(str) {
-  return str.split("").filter(letter => isVowel(letter)).length;
+    return str.split("").filter(letter => isVowel(letter)).length;
 }

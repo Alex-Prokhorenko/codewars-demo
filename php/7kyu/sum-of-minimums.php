@@ -18,5 +18,5 @@ Note: You will always be given a non-empty list containing positive values.
 
 function sum_of_minimums($numbers)
 {
-    return array_sum(array_map( 'min', $numbers));
+    return array_sum(array_map('min', $numbers));
 }

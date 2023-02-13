@@ -19,11 +19,11 @@ Examples:(Input --> Output)
 */
 
 // My solution
-function SeriesSum(n){
-  let result = 0;
+function SeriesSum(n) {
+    let result = 0;
 
-  for (let i = 0, j = 1; i < n; i++, j += 3) {
-    result += (1 / j);
-  }
-  return result.toFixed(2);
+    for (let i = 0, j = 1; i < n; i++, j += 3) {
+        result += (1 / j);
+    }
+    return result.toFixed(2);
 }

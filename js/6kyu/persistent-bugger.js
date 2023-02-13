@@ -11,11 +11,11 @@ For example (Input --> Output):
 
 // My solution
 function persistence(num) {
-  let count = 0;
+    let count = 0;
 
-  while (num >= 10){
-    num = String(num).split('').reduce((prev, cur) =>prev * cur);
-    count++;
-  }
-  return count;
+    while (num >= 10) {
+        num = String(num).split('').reduce((prev, cur) => prev * cur);
+        count++;
+    }
+    return count;
 }

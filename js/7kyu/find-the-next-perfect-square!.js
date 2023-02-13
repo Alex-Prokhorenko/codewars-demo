@@ -16,9 +16,9 @@ Examples:(Input --> Output)
 
 // My solution
 function findNextSquare(sq) {
-  sq = sq ** (1/2);
-  if (sq === Math.floor(sq)) {
-    return (sq + 1) ** 2;
-  }
-  return -1;
+    sq = sq ** (1 / 2);
+    if (sq === Math.floor(sq)) {
+        return (sq + 1) ** 2;
+    }
+    return -1;
 }

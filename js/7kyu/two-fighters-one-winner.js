@@ -30,9 +30,9 @@ function Fighter(name, health, damagePerAttack) {
 
 // My solution
 function declareWinner(fighter1, fighter2, firstAttacker) {
-  let fighter1HasHealth = Math.ceil(fighter1.health/fighter2.damagePerAttack)
-  let fighter2HasHealth = Math.ceil(fighter2.health/fighter1.damagePerAttack)
-  if (fighter1HasHealth === fighter2HasHealth) {
-    return firstAttacker;
-  } else return fighter1HasHealth > fighter2HasHealth ? fighter1.name : fighter2.name;
+    let fighter1HasHealth = Math.ceil(fighter1.health / fighter2.damagePerAttack)
+    let fighter2HasHealth = Math.ceil(fighter2.health / fighter1.damagePerAttack)
+    if (fighter1HasHealth === fighter2HasHealth) {
+        return firstAttacker;
+    } else return fighter1HasHealth > fighter2HasHealth ? fighter1.name : fighter2.name;
 }

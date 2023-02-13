@@ -14,6 +14,7 @@ If you can, try writing it in one line of code.
 
 // My solution
 
-function findDifference($a, $b) {
+function findDifference($a, $b)
+{
     return abs(array_product($a) - array_product($b));
 }

@@ -10,5 +10,5 @@ Examples
 
 // My solution
 function reverseWords(str) {
-  return str.split(' ').map(elem => [...elem].reverse().join('')).join(' ');
+    return str.split(' ').map(elem => [...elem].reverse().join('')).join(' ');
 }

@@ -11,10 +11,9 @@ Examples
 
 // My solution
 
-function sortArray(array $arr) : array
+function sortArray(array $arr): array
 {
-    $odd = array_filter($arr, function($num)
-    {
+    $odd = array_filter($arr, function ($num) {
         return $num % 2 !== 0;
     });
     sort($odd);

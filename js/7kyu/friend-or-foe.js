@@ -14,6 +14,6 @@ Note: keep the original order of the names in the output.
 */
 
 // My solution
-function friend(friends){
-  return friends.filter(friend => friend.length === 4);
+function friend(friends) {
+    return friends.filter(friend => friend.length === 4);
 }

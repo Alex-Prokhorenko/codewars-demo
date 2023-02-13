@@ -11,5 +11,5 @@ You can assume that all values are integers. Do not mutate the input array/list.
 
 // My solution
 function invert(array) {
-  return array.map( (n) => n >= 0 ? n * -1 : Math.abs(n));
+    return array.map((n) => n >= 0 ? n * -1 : Math.abs(n));
 }

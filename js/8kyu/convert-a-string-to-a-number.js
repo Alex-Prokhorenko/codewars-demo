@@ -11,6 +11,6 @@ Examples
 */
 
 //My solution
-const stringToNumber = function(str){
+const stringToNumber = function (str) {
   return +str;
 }

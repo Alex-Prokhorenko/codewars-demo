@@ -7,6 +7,6 @@ Note: The function accepts an integer and returns an integer
 */
 
 // My solution
-function squareDigits(num){
-  return Number(String(num).split('').map((elem)=> elem ** 2).join(''));
+function squareDigits(num) {
+    return Number(String(num).split('').map((elem) => elem ** 2).join(''));
 }

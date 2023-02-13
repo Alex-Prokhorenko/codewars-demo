@@ -4,6 +4,6 @@ and returns a string of s repeated exactly n times.
 */
 
 // My solution
-function repeatStr (n, s) {
-  return s.repeat(n);
+function repeatStr(n, s) {
+    return s.repeat(n);
 }

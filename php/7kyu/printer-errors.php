@@ -26,6 +26,7 @@ printer_error(s) => "8/22"
 
 // My solution
 
-function printerError($s) {
+function printerError($s)
+{
     return preg_match_all('#[^a-m]#', $s) . '/' . strlen($s);
 }

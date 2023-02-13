@@ -12,9 +12,9 @@ Note: if there is nothing to sum, the sum is default to 0.
 function positive_sum($arr)
 {
     $sum = 0;
-    foreach($arr as $item) {
+    foreach ($arr as $item) {
         if ($item > 0) {
-            $sum +=$item;
+            $sum += $item;
         }
     }
     return $sum;

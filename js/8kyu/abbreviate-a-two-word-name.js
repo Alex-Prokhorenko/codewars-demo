@@ -9,6 +9,6 @@ patrick feeney => P.F
 */
 
 // My solution
-function abbrevName(name){
-  return name.split(' ').map( elem => elem.toUpperCase().substring(0, 1)).join('.');
+function abbrevName(name) {
+    return name.split(' ').map(elem => elem.toUpperCase().substring(0, 1)).join('.');
 }

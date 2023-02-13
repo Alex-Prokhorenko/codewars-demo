@@ -12,7 +12,8 @@ or ValueError (Python) or return -1 (C).
 
 // My solution
 
-function factorial(int $n): int {
+function factorial(int $n): int
+{
     if ($n > 12 || $n < 0) {
         throw new RangeException();
     }

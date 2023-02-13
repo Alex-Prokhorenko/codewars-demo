@@ -8,7 +8,6 @@ The first character in the string is always a number.
 */
 
 //My solution
-function getAge(inputString){
-  return +inputString[0];
+function getAge(inputString) {
+    return +inputString[0];
 }
-

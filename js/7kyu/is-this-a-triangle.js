@@ -6,14 +6,13 @@ The function should return true if a triangle can be built with the sides of giv
 */
 
 // My solution
-function isTriangle(a,b,c)
-{
-  if (a <= 0 || b <= 0 || c <= 0) {
-    return false;
-  }
-  if (a+b > c && a+c > b && c+b > a) {
-    return true;
-  } else {
-    return false;
-  }
+function isTriangle(a, b, c) {
+    if (a <= 0 || b <= 0 || c <= 0) {
+        return false;
+    }
+    if (a + b > c && a + c > b && c + b > a) {
+        return true;
+    } else {
+        return false;
+    }
 }

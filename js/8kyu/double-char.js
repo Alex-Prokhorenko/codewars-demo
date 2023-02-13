@@ -10,5 +10,5 @@ Examples (Input -> Output):
 
 // My solution
 function doubleChar(str) {
-  return str.split('').reduce((acc, letter) => acc + letter.repeat(2), '');
+    return str.split('').reduce((acc, letter) => acc + letter.repeat(2), '');
 }

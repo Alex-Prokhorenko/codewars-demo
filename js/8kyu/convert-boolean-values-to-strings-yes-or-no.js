@@ -3,6 +3,6 @@ Complete the method that takes a boolean value and return a "Yes" string for tru
 */
 
 // My solution
-function boolToWord( bool ){
-  return bool ? "Yes" : "No";
+function boolToWord(bool) {
+    return bool ? "Yes" : "No";
 }

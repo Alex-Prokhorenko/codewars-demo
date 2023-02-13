@@ -20,7 +20,7 @@ function sequence_sum(int $begin, int $end, int $step): int
 {
     $result = 0;
 
-    while($begin <= $end){
+    while ($begin <= $end) {
         $result += $begin;
         $begin += $step;
     }

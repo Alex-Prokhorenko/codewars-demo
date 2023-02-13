@@ -15,6 +15,6 @@ longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 
 // My solution
 function longest(s1, s2) {
-  let arr = s1.split('').concat(arr2 = s2.split(''));
-  return arr.reduce((acc, e) => (acc.includes(e) || acc.push(e), acc), []).sort().join('');
+    let arr = s1.split('').concat(arr2 = s2.split(''));
+    return arr.reduce((acc, e) => (acc.includes(e) || acc.push(e), acc), []).sort().join('');
 }

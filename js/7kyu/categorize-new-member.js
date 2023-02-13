@@ -22,8 +22,8 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 */
 
 // My solution
-function openOrSenior(data){
-  return data.map((elem) => {
-    return (elem[0] >=55 && elem[1] > 7) ? 'Senior' : 'Open';
-  });
+function openOrSenior(data) {
+    return data.map((elem) => {
+        return (elem[0] >= 55 && elem[1] > 7) ? 'Senior' : 'Open';
+    });
 }

@@ -10,8 +10,8 @@ None of the arrays will be empty, so you don't have to worry about that!
 */
 
 // My solution
-function removeEveryOther(arr){
-  return arr.filter( (element, index) => {
-    return index % 2 === 0;
-  })
+function removeEveryOther(arr) {
+    return arr.filter((element, index) => {
+        return index % 2 === 0;
+    })
 }

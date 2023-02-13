@@ -11,5 +11,5 @@ The parameter of accum is a string which includes only letters from a..z and A..
 
 // My solution
 function accum(s) {
-  return s.split('').map( (elem, index) => elem.toUpperCase() + elem.toLowerCase().repeat(index)).join('-');
+    return s.split('').map((elem, index) => elem.toUpperCase() + elem.toLowerCase().repeat(index)).join('-');
 }

@@ -16,5 +16,5 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 
 // My solution
 function rowSumOddNumbers(n) {
-  return n ** 3;
+    return n ** 3;
 }

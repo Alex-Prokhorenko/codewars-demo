@@ -8,10 +8,10 @@ otherwise 	'Hello guest'
 */
 
 // My solution
-function greet (name, owner) {
-  if (owner === name) {
-    return 'Hello boss';
-  } else {
-    return 'Hello guest';
-  }
+function greet(name, owner) {
+    if (owner === name) {
+        return 'Hello boss';
+    } else {
+        return 'Hello guest';
+    }
 }

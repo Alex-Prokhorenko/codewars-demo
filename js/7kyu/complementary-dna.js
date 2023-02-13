@@ -18,24 +18,24 @@ Example: (input --> output)
 */
 
 // My solution
-function DNAStrand(dna){
-  let str = '';
+function DNAStrand(dna) {
+    let str = '';
 
-  for(let i = 0; i < dna.length; i++) {
-    switch (dna[i]) {
-      case 'A' :
-        str += 'T';
-        break;
-      case 'C' :
-        str += 'G';
-        break;
-      case 'G' :
-        str += 'C';
-        break;
-      case 'T' :
-        str += 'A'
-        break;
+    for (let i = 0; i < dna.length; i++) {
+        switch (dna[i]) {
+            case 'A' :
+                str += 'T';
+                break;
+            case 'C' :
+                str += 'G';
+                break;
+            case 'G' :
+                str += 'C';
+                break;
+            case 'T' :
+                str += 'A'
+                break;
+        }
     }
-  }
-  return str;
+    return str;
 }

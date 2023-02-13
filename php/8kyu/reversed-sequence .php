@@ -7,7 +7,7 @@ Example : n=5 --> [5,4,3,2,1]
 
 // My solution
 
-function reverseSeq ($n)
+function reverseSeq($n)
 {
     return range($n, 1, 1);
-};
+}

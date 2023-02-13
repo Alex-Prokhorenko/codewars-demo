@@ -15,7 +15,7 @@ Notes
 */
 
 // My solution
-function highAndLow(numbers){
-  let arr = numbers.split(' ');
-  return `${Math.max(...arr)} ${Math.min(...arr)}`;
+function highAndLow(numbers) {
+    let arr = numbers.split(' ');
+    return `${Math.max(...arr)} ${Math.min(...arr)}`;
 }

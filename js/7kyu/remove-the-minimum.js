@@ -24,6 +24,6 @@ Examples
 
 // My solution
 function removeSmallest(numbers) {
-  const min = Math.min.apply(this, numbers);
-  return numbers.filter((num, i, arr) => i !== arr.indexOf(min));
+    const min = Math.min.apply(this, numbers);
+    return numbers.filter((num, i, arr) => i !== arr.indexOf(min));
 }

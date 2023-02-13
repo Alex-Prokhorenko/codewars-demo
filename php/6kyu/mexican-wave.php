@@ -22,7 +22,7 @@ function wave($people)
     $resultArr = [];
     $save = $people;
     for ($i = 0; $i < strlen($people); $i++) {
-        if($people[$i] === ' ') continue;
+        if ($people[$i] === ' ') continue;
         $people[$i] = strtoupper($people[$i]);
         $resultArr[] = $people;
         $people = $save;

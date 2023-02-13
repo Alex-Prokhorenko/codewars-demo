@@ -4,6 +4,6 @@ Return your answer as a number.
 */
 
 // My solution
-function sumMix(x){
-  return x.reduce((p, c) => (+p) + (+c));
+function sumMix(x) {
+    return x.reduce((p, c) => (+p) + (+c));
 }

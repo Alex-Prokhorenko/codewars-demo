@@ -10,5 +10,5 @@ Examples:
 
 // My solution
 function opposite(number) {
-  return -number;
+    return -number;
 }
